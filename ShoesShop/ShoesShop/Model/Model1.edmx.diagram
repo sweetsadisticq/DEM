@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d02d97be49c34fa3ab9977b21379f4ed" Name="Diagram1">
+        <EntityTypeShape EntityType="DemShoesShopModel.Categories" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Cites" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Indexes" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Manufacturer" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Orders" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Points" Width="1.5" PointX="3" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.ProductName" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Roles" Width="1.5" PointX="0.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Statuses" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Streets" Width="1.5" PointX="0.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Suppliers" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Units" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemShoesShopModel.Users" Width="1.5" PointX="3" PointY="23.125" IsExpanded="true" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Points_Cites" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Points_Indexes" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Products_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Orders_Points" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Orders_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Orders_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Points_Streets" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Products_ProductName" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Products_Units" ManuallyRouted="false" />
+        <AssociationConnector Association="DemShoesShopModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

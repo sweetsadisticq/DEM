@@ -1,0 +1,55 @@
+﻿<Window x:Class="ShoesShop.Windows.ProductEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактирование товара"
+        Height="776" Width="500"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource MainBackgroundBrush}">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <Label Content="Фото товара"/>
+            <Image x:Name="ProductImage" Width="200" Height="150"/>
+            <Button Content="Выбрать фото" Click="SelectPhotoButton_Click" Margin="0,0,0,10" Height="27" Width="83"/>
+
+            <Label Content="Артикул"/>
+            <TextBox x:Name="ArticleTextBox"/>
+
+            <Label Content="Наименование"/>
+            <TextBox x:Name="NameTextBox"/>
+
+            <Label Content="Категория"/>
+            <ComboBox x:Name="CategoryComboBox"/>
+
+            <Label Content="Описание"/>
+            <TextBox x:Name="DescriptionTextBox"/>
+
+            <Label Content="Производитель"/>
+            <ComboBox x:Name="ManufacturerComboBox"/>
+
+            <Label Content="Поставщик"/>
+            <ComboBox x:Name="SupplierComboBox"/>
+
+            <Label Content="Цена"/>
+            <TextBox x:Name="PriceTextBox"/>
+
+            <Label Content="Ед. измерения"/>
+            <ComboBox x:Name="UnitComboBox"/>
+
+            <Label Content="Количество на складе"/>
+            <TextBox x:Name="QuantityTextBox"/>
+
+            <Label Content="Скидка (%)"/>
+            <TextBox x:Name="SaleTextBox"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button Content="Сохранить" Click="SaveButton_Click" Margin="0,0,10,0" Height="22" Width="64"/>
+                <Button Content="Отмена" Click="CancelButton_Click" Height="22" Width="48"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

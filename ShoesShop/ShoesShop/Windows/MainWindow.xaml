@@ -1,0 +1,110 @@
+﻿<Window x:Class="ShoesShop.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Каталог товаров"
+        Height="700" Width="1100"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource MainBackgroundBrush}">
+
+    <DockPanel>
+        <Grid DockPanel.Dock="Top" Height="60" Background="{StaticResource SecondaryBackgroundBrush}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="UserFioText"
+               VerticalAlignment="Center"
+               Margin="10"
+               FontWeight="Bold"/>
+
+            <Button x:Name="AddProductButton" Content="Добавить товар"
+            Grid.Column="1"
+            Margin="10"        
+            Width="120" Height="30"
+            Click="AddProductButton_Click"
+            Visibility="Collapsed" Cursor="Hand"/>
+
+            <Button x:Name="OrdersButton" Content="Заказы"
+            Grid.Column="2"
+            Width="55" Height="30"
+            Margin="10"
+            Click="OrdersButton_Click"
+            Visibility="Collapsed"/>
+
+            <Button Content="Выйти"
+            Margin="1035,0,0,0"
+            Click="ExitButton_Click" Width="55" Height="30"/>
+        </Grid>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="SearchTextBox" Width="200" Margin="0,0,10,0"
+                     TextChanged="SearchTextBox_TextChanged"/>
+
+            <ComboBox x:Name="SupplierFilterComboBox" Width="150" Margin="0,0,10,0"
+                      SelectionChanged="SupplierFilterComboBox_SelectionChanged"/>
+
+            <ComboBox x:Name="SortComboBox" Width="150" SelectionChanged="SortComboBox_SelectionChanged">
+                <ComboBoxItem Content="Количество: по возрастанию"/>
+                <ComboBoxItem Content="Количество: по убыванию"/>
+            </ComboBox>
+        </StackPanel>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl x:Name="ProductsItemsControl">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="10" Padding="10" BorderThickness="1" BorderBrush="Gray" Background="{Binding RowBackground}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="150"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Column="0"
+                                       Width="140"
+                                       Height="140"
+                                       Stretch="Uniform"
+                                       Source="{Binding ImagePath}"/>
+                                <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                                    <TextBlock FontWeight="Bold" TextWrapping="Wrap">
+                                        <Run Text="{Binding Category}"/>
+                                        <Run Text=" | "/>
+                                        <Run Text="{Binding Name}"/>
+                                    </TextBlock>
+                                    <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Margin="0,5,0,0"/>
+                                    <TextBlock Text="{Binding Manufacturer}"/>
+                                    <TextBlock Text="{Binding Supplier}"/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                        <TextBlock Text="{Binding OldPrice}" Foreground="Red" TextDecorations="Strikethrough"
+                                                   Visibility="{Binding OldPriceVisibility}"/>
+                                        <TextBlock Text="{Binding Price}" Margin="10,0,0,0"/>
+                                    </StackPanel>
+                                    <TextBlock Text="{Binding Unit}"/>
+                                    <TextBlock Text="{Binding QuantityText}"/>
+                                </StackPanel>
+                                <Border Grid.Column="2"
+                                        Background="{StaticResource SaleBigBrush}"
+                                        Margin="5"
+                                        Padding="5"
+                                        Visibility="{Binding SaleVisibility}">
+                                    <TextBlock Text="{Binding SaleText}" Foreground="White" 
+                                               TextAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <StackPanel Grid.Column="3" Orientation="Vertical" Margin="5">
+                                    <Button Content="Редактировать" Margin="0,0,0,5" Width="100" Height="30"
+                                            Click="EditProductButton_Click"
+                                            Visibility="{Binding EditButtonVisibility}"/>
+                                    <Button Content="Удалить" Click="DeleteProductButton_Click" Width="55" Height="30"
+                                            Visibility="{Binding EditButtonVisibility}"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

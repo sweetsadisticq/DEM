@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\shoesshop\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\shoesshop\\model\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\model\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|c:\\users\\pr-22.103k-ga\\desktop\\dem\\shoesshop\\shoesshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\shoesshop\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\shoesshop\\classes\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\classes\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\shoesshop\\windows\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\windows\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\shoesshop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD287EA1-C690-4659-9029-5F5891291DA8}|ShoesShop\\ShoesShop.csproj|solutionrelative:shoesshop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Model\\Model1.edmx",
+              "RelativeDocumentMoniker": "ShoesShop\\Model\\Model1.edmx",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Model\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "ShoesShop\\Model\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-02-20T07:23:54.882Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\App.config",
+              "RelativeDocumentMoniker": "ShoesShop\\App.config",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\App.config",
+              "RelativeToolTip": "ShoesShop\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-20T07:23:23.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Windows\\ProductEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ShoesShop\\Windows\\ProductEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Windows\\ProductEditWindow.xaml.cs",
+              "RelativeToolTip": "ShoesShop\\Windows\\ProductEditWindow.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAewKYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:19:55.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Classes\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ShoesShop\\Classes\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Classes\\ProductViewModel.cs",
+              "RelativeToolTip": "ShoesShop\\Classes\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:17:35.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ShoesShop\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Windows\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "ShoesShop\\Windows\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAL4AAAAAAAAAAIA0wN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:17:12.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Windows\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ShoesShop\\Windows\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\Windows\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "ShoesShop\\Windows\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T07:17:03.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\App.xaml",
+              "RelativeDocumentMoniker": "ShoesShop\\App.xaml",
+              "ToolTip": "C:\\Users\\pr-22.103k-ga\\Desktop\\DEM\\ShoesShop\\ShoesShop\\App.xaml",
+              "RelativeToolTip": "ShoesShop\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-20T07:03:32.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
